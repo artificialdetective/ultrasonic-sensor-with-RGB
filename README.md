@@ -3,10 +3,10 @@
 The RUS-04 ultrasonic distance sensor has six RGB leds built into its speakers, but no clear documentation on how to use them, so here is how.
 For measuring distance, the RUS-04 sensor works the same as the common HC-SR04 sensor for which there are plenty of tutorials to find, so we won't cover that here.
 
-The RUS-04's manufacturer is Emakefun (www.emakefun.com), who only offers minimal documentation in Chinese:
+The RUS-04's manufacturer is Emakefun (www.emakefun.com), who only offers minimal documentation in Chinese:  
 https://test-doc-zh-cn.readthedocs.io/projects/emakefun/zh_CN/latest/open_source_hardware/rgb/
 
-They use the RgbUltrasonic code library, which you can find somewhere in here if you prefer:
+They use the RgbUltrasonic code library, which you can find somewhere in here if you prefer:  
 https://github.com/emakefun/hummer-bot/tree/Hummer-bot4.0/Lesson/Module_Test/RGBUltrasonicModule_Test
 
 However, all we need from there to control the RGB leds is the RGBLed library, which consists of two files: RGBLed.cpp and RGBLed.h
