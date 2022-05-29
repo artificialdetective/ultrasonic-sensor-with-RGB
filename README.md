@@ -9,7 +9,7 @@ https://test-doc-zh-cn.readthedocs.io/projects/emakefun/zh_CN/latest/open_source
 They use the RgbUltrasonic code library, which you can find somewhere in here if you prefer:  
 https://github.com/emakefun/hummer-bot/tree/Hummer-bot4.0/Lesson/Module_Test/RGBUltrasonicModule_Test
 
-However, all we need from there to control the RGB leds is the RGBLed library, which consists of two files: RGBLed.cpp and RGBLed.h
+However, all we need from there to control the RGB leds is the RGBLed library, which consists of two files: RGBLed.cpp and RGBLed.h .  
 The original RGBLed.cpp file contains mistakes in the order of the colour parameters in several functions, which I've fixed in this repository.
 Install these two files as a library or simply place them in the same folder as your Arduino program's .ino file in order to use the RGB functions.
 
