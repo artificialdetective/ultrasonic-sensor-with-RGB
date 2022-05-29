@@ -21,7 +21,7 @@ The sensor module remembers the last-set colours even if you reset your Arduino.
 # Minimal Arduino program example
 #include "RGBLed.h"  
 
-// Set the pin nr connected to the ultrasonic sensor's pin marked "RGB_IN":  
+// Set the pin nr wired to the ultrasonic sensor's pin marked "RGB" or "RGB_IN":  
 const int ultrasonicRGBPin = 2;  
 
 // The ultrasonic sensor has 6 leds in total: 3 in each cylinder.  
